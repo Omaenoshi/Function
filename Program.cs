@@ -41,16 +41,6 @@ namespace Function
                     Console.WriteLine($"y = {y}, x = {i}.");
                 }
             }
-            else
-            {
-                for (double i = start; (i >= end && i <= start); i -= step)
-                {
-                    double y = Function(i);
-                    Console.WriteLine($"y = {y}, x = {i}.");
-                }
-            }
-
-
         }
     }
 }
